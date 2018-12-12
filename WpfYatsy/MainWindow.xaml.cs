@@ -29,6 +29,7 @@ namespace WpfYatsy
         {           
             Random rnd = new Random();
             counter = counter + 1;
+            //
            // peli loppuu, nollataan ja piilotetaan checkboxit.
             if (counter == 3)
             {
