@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfYatsy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfYatsy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Throw" Content="Uusi peli" HorizontalAlignment="Left" Margin="83,66,0,0" VerticalAlignment="Top" Width="130" Height="77" Click="Throw_Click"/>
+        <Button x:Name="Dice1" Content="" HorizontalAlignment="Left" Margin="83,175,0,0" VerticalAlignment="Top" Width="53" Height="55"/>
+        <Button x:Name="Dice2" Content="" HorizontalAlignment="Left" Margin="160,175,0,0" VerticalAlignment="Top" Width="53" Height="55" RenderTransformOrigin="2.811,0.566"/>
+        <Button x:Name="Dice3" Content="" HorizontalAlignment="Left" Margin="232,175,0,0" VerticalAlignment="Top" Width="53" Height="55"/>
+        <Button x:Name="Dice4" Content="" HorizontalAlignment="Left" Margin="304,175,0,0" VerticalAlignment="Top" Width="53" Height="55"/>
+        <Button x:Name="Dice5" Content="" HorizontalAlignment="Left" Margin="376,175,0,0" VerticalAlignment="Top" Width="53" Height="55"/>
+        <Label Content="Yatsypeli" HorizontalAlignment="Left" Margin="89,23,0,0" VerticalAlignment="Top" Height="38" Width="196" FontSize="18"/>
+        <CheckBox x:Name="cBox1" Content="Lukitse" HorizontalAlignment="Left" Margin="83,253,0,0" VerticalAlignment="Top" Height="30" Width="66" Visibility="Hidden"/>
+        <CheckBox x:Name="cBox2" Content="Lukitse" HorizontalAlignment="Left" Margin="160,253,0,0" VerticalAlignment="Top" Height="30" Width="67" Visibility="Hidden"/>
+        <CheckBox x:Name="cBox3" Content="Lukitse" HorizontalAlignment="Left" Margin="232,253,0,0" VerticalAlignment="Top" Height="30" Width="67" Visibility="Hidden"/>
+        <CheckBox x:Name="cBox4" Content="Lukitse" HorizontalAlignment="Left" Margin="304,253,0,0" VerticalAlignment="Top" Height="30" Width="67" Visibility="Hidden"/>
+        <CheckBox x:Name="cBox5" Content="Lukitse" HorizontalAlignment="Left" Margin="376,253,0,0" VerticalAlignment="Top" Height="30" Width="70" Visibility="Hidden" />
+        <Label x:Name="Tulos" Content="Peli loppui!" HorizontalAlignment="Left" Margin="89,148,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+
+    </Grid>
+</Window>
